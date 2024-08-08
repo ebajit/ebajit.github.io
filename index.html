@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Hello World</h1>  
-    </main>
-	<script src="index.js"></script>
-  </body>
+    <title>Emil Bajit - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="name">Emil Bajit</div>
+    <div class="menu-btn" onclick="openNav()">&#9776; Menu</div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+        <a href="#about" class="menu-links">About Me</a>
+        <a href="html/projects.html" class="menu-links">Projects</a>
+        <a href="#contact" class="menu-links">Contact</a>
+    </div>
+    <div class="color-wipe" id="colorWipe"></div>
+    <div class="title_block">Hi, I'm Emil</div>
+    <div class="subtitle">Junior Computer Engineering Major interested in embedded </div>
+    <div class="scroll-down">Scroll</div> 
+    <div class="scroll-wipe"></div>
+    <div class="recent-projects"></div>
+    <script src="js/index.js"></script>
+</body>
 </html>
